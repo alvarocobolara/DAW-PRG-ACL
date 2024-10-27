@@ -77,7 +77,7 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
 <h3>Ejecución del Programa</h3>
 <p>
   Al ejecutar el programa, el usuario será solicitado a introducir los coeficientes 
-  de la ecuación de segundo grado:
+  de la ecuación de segundo grado (a,b, y c):
 </p>
 <pre>
 1. Introduce a (coeficiente de x^2): 1
@@ -85,12 +85,19 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
 3. Introduce c (término independiente): 2
 </pre>
 <p>
-  El programa calculará las soluciones y mostrará:
+  El programa calculará las soluciones y mostrará en caso de que el discriminante sea mayor que 0:
 </p>
 <pre>
 Discriminante: 1.00
 Solución 1: 2.00
 Solución 2: 1.00
+</pre>
+<p>
+  En caso de que el discriminante sea igual a 0, unicamente habra una solución:
+</p>
+<pre>
+Discriminante: 0.00
+Solución real: -1.00
 </pre>
 <p>
   Si el discriminante es negativo, el programa mostrará:
