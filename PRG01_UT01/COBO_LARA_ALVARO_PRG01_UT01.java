@@ -16,7 +16,7 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
             // Se crea un objeto de la clase Scanner
         Scanner sc = new Scanner(System.in);
 
-        // Se crea variables variable para almacenar los numeros pedidos por pantalla
+        // Se crea variables variable para almacenar los números pedidos por pantalla
         // Solicitar los coeficientes de la ecuación
         System.out.print("1. Introduce a (coeficiente de x^2): ");
         double a = sc.nextDouble();
@@ -40,7 +40,7 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
         // Se crea un objeto de la clase DecimalFormat, en este caso se hará uso de un formato de dos decimales
         DecimalFormat df = new DecimalFormat("0.00");
         // Se crea una variable para almacenar el discriminante
-        // Calculamos el discriminante, es decir, la parte dentro de la raiz de la ecuación de segundo grado.
+        // Calculamos el discriminante, es decir, la parte dentro de la raíz de la ecuación de segundo grado.
         double discriminante = Math.pow(b, 2) - 4 * a * c;
         System.out.println("Discriminante: " + df.format(discriminante));
 
@@ -59,10 +59,9 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
           double x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
           // Se calcula la solución negativa
           double x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
-          //Se hace uso de la libreria decimalFormat (df) para poder mostrar los resultados con tres decimales
+          //Se hace uso de la librería decimalFormat (df) para poder mostrar los resultados con tres decimales
           System.out.println(SOLUCION_1 + df.format(x1));
           System.out.println(SOLUCION_2 + df.format(x2));
         }
     }
-
 }
