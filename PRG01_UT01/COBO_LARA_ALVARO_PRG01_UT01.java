@@ -1,6 +1,6 @@
 package com.mycompany.cobo_lara_alvaro_prg01_ut01;
 
-// se añade la libreria scanner para poder pedir información por pantalla
+// se añade la librería scanner para poder pedir información por pantalla
 import java.util.Scanner;
 // Se añade la biblioteca decimalFormat para formatear los decimales de la operación
 import java.text.DecimalFormat;
@@ -59,7 +59,7 @@ public class COBO_LARA_ALVARO_PRG01_UT01 {
           double x1 = (-b + Math.sqrt(discriminante)) / (2 * a);
           // Se calcula la solución negativa
           double x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
-          //Se hace uso de la librería decimalFormat (df) para poder mostrar los resultados con tres decimales
+          //Se hace uso de la librería decimalFormat (df) para poder mostrar los resultados con dos decimales
           System.out.println(SOLUCION_1 + df.format(x1));
           System.out.println(SOLUCION_2 + df.format(x2));
         }
