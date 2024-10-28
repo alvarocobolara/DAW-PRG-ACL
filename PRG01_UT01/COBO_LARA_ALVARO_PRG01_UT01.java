@@ -8,12 +8,12 @@ import java.text.DecimalFormat;
 /**
  * Programa para resolver ecuaciones de segundo grado.
  * Solicita los coeficientes de la ecuación y calcula las soluciones reales.
- * @author Alvaro Cobo Lara
+ * @author Álvaro Cobo Lara
  */
 public class COBO_LARA_ALVARO_PRG01_UT01 {
 
     public static void main(String[] args) {
-            // Se crea un objeto de la clase Scanner
+        // Se crea un objeto de la clase Scanner
         Scanner sc = new Scanner(System.in);
 
         // Se crea variables variable para almacenar los números pedidos por pantalla
